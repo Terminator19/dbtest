@@ -1,0 +1,3 @@
+ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+ .\venv\Scripts\Activate.ps1
+py -m sqlite_web path_to_your_database.db
